@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A100%2C300%2C400%2C500%2C700" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C400" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A300%2C500%2C700" />
-  <link rel="stylesheet" href="./css/style2.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
@@ -129,26 +129,29 @@
             </div>
           </div>
         </div>
+
       </div>
+
       <div class="auto-group-qbcs-cgP">
         <div class="graph-section">
+
           <div class="rectangle-32-hSw">
           </div>
           <div class="rectangle-33-Rtj">
-            <canvas id="myChart" aria-label="Site statistics" role="img"></canvas>
+            <p class="graph-title">CUBESAT TEMPERATURE OVERVIEW </p>
+
           </div>
 
         </div>
         <div class="camera-section">
           <p class="camera-section-title">CAMERA FEED</p>
           <div class="camera-image" style="height: 100%;">
-            <img class="" id="addImg" src="" height="100%" width="510px">
+            <img class="" id="addImg" src="" height="285px" width="510px">
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <!-- Chart library -->
   <script src="./plugins/chart.min.js"></script>
   <!-- Icons library -->
@@ -159,7 +162,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
   <script src="js/main.js"></script>
 </body>
 

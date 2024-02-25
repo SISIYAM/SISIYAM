@@ -180,6 +180,7 @@ body {
   width: 100%;
   height: 27.5539rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex-shrink: 0;
 }
@@ -651,52 +652,13 @@ body {
   flex-shrink: 0;
 }
 
-.main .container .auto-group-qbcs-cgP .graph-section {
-  margin-right: 1.7rem;
-  width: 70.3rem;
-  height: 100%;
-  position: relative;
-  flex-shrink: 0;
-}
 
-.main .container .auto-group-qbcs-cgP .graph-section .rectangle-32-hSw {
-  width: 100%;
-  height: 340px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #000000;
-  border-radius: 1.5rem;
-}
-
-.main .container .auto-group-qbcs-cgP .graph-section .rectangle-33-Rtj {
-  height: 350px;
-  width: 100%;
-  position: relative;
-
-
-}
-
-.main .container .auto-group-qbcs-cgP .graph-section .graph-title {
-  width: 28.7rem;
-  height: 2rem;
-  position: absolute;
-  left: 20.8rem;
-  top: 1.4376rem;
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.2125;
-  color: #ffffff;
-  font-family: Inter, 'Source Sans Pro';
-  white-space: nowrap;
-}
 
 .main .container .auto-group-qbcs-cgP .camera-section {
   margin-bottom: 0.0343rem;
   box-sizing: border-box;
-  padding: 1.438rem 0rem 0rem 0rem;
-  width: 51.6rem;
+
+  width: 88.6rem;
   height: calc(100% - 0.0343rem);
   align-items: center;
   display: flex;

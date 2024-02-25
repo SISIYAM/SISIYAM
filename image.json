@@ -1,1 +1,11 @@
-[{ "path": "./images/image.bmp" }]
+[{ "path": "./images/image.bmp" },
+{ "path": "./images/Picture1.png" },
+{ "path": "./images/image.bmp" },
+{ "path": "./images/Picture1.png" },
+{ "path": "./images/image.bmp" },
+{ "path": "./images/Picture1.png" },
+{ "path": "./images/image.bmp" },
+{ "path": "./images/Picture1.png"},
+{ "path": "./images/image.bmp" },
+{ "path": "./images/images.jpg" }
+]

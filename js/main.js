@@ -14,7 +14,7 @@ $(document).ready(function () {
         });
       },
     });
-  }, 100);
+  }, 1000);
 
   // fetching data from BME280 sensor
   setInterval(() => {
@@ -31,7 +31,7 @@ $(document).ready(function () {
         });
       },
     });
-  }, 100);
+  }, 1000);
 
   // fetching image from image.json
 
@@ -55,7 +55,7 @@ $(document).ready(function () {
         });
       },
     });
-  }, 100);
+  }, 1000);
 
   // insert json data automatically for obc sensor
   let Temperature_1 = 5;
@@ -132,162 +132,3 @@ $(document).ready(function () {
     });
   }, 2000);
 });
-
-// code for graph
-/*
-function chartApex() {
-  var options1 = {
-    chart: {
-      height: 280,
-      type: "radialBar",
-    },
-    series: [0],
-    colors: ["#124CD2"],
-    plotOptions: {
-      radialBar: {
-        startAngle: -135,
-        endAngle: 135,
-        track: {
-          background: "#333",
-          startAngle: -135,
-          endAngle: 135,
-        },
-        dataLabels: {
-          name: {
-            show: true,
-          },
-          value: {
-            fontSize: "30px",
-            show: true,
-            formatter: function (humidityValue) {
-              return humidityValue + "%";
-            },
-          },
-        },
-      },
-    },
-    fill: {
-      type: "gradient",
-      gradient: {
-        shade: "dark",
-        type: "horizontal",
-        gradientToColors: ["#87D4F9"],
-        stops: [0, 100],
-      },
-    },
-    stroke: {
-      lineCap: "butt",
-    },
-    labels: ["Humidity"],
-  };
-  return options1;
-}
-setInterval(chartApex, 100);
-
-var chart = new ApexCharts(document.querySelector("#chart1"), chartApex());
-chart.render();
-
-var options2 = {
-  chart: {
-    height: 280,
-    type: "radialBar",
-  },
-  series: [0],
-  colors: ["#20E647"],
-  plotOptions: {
-    radialBar: {
-      startAngle: -135,
-      endAngle: 135,
-      track: {
-        background: "#333",
-        startAngle: -135,
-        endAngle: 135,
-      },
-      dataLabels: {
-        name: {
-          show: true,
-        },
-        value: {
-          fontSize: "30px",
-          show: true,
-          formatter: function (altitudeValue) {
-            return altitudeValue + "m";
-          },
-        },
-      },
-    },
-  },
-  fill: {
-    type: "gradient",
-    gradient: {
-      shade: "dark",
-      type: "horizontal",
-      gradientToColors: ["#87D4F9"],
-      stops: [0, 100],
-    },
-  },
-  stroke: {
-    lineCap: "butt",
-  },
-  labels: ["Altitude"],
-};
-
-var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
-chart2.render();
-
-var options3 = {
-  chart: {
-    height: 280,
-    type: "radialBar",
-  },
-  series: [0],
-  colors: ["#A312D2"],
-  plotOptions: {
-    radialBar: {
-      dataLabels: {
-        name: {
-          show: false,
-        },
-        value: {
-          fontSize: "20px",
-          show: true,
-          formatter: function (pressureValue) {
-            return pressureValue + "kpa";
-          },
-        },
-      },
-    },
-  },
-  fill: {
-    type: "gradient",
-    gradient: {
-      shade: "dark",
-      type: "horizontal",
-      gradientToColors: ["#87D4F9"],
-      stops: [0, 100],
-    },
-  },
-  stroke: {
-    lineCap: "butt",
-  },
-  labels: ["Pressure"],
-};
-
-var chart3 = new ApexCharts(document.querySelector("#chart3"), options3);
-chart3.render();
-function updateChart() {
-  $.getJSON("BME280.json", function (rez) {
-    return rez.json();
-  }).then((dat) => {
-    dat.forEach((ValElement) => {
-      chart.updateSeries([ValElement.Humidity.toString().replace(/\%/g, "")]);
-      chart3.updateSeries([
-        ValElement.pressure.toString().replace(/\hPa/g, ""),
-      ]);
-      chart2.updateSeries([ValElement.altitude.toString().replace(/\m/g, "")]);
-    });
-  });
-}
-
-setInterval(updateChart, 200);
-*/
