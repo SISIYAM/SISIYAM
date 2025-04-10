@@ -12,7 +12,7 @@
 
 - 👯 I’m currently collaborating on developing [EduSolve - A Doubt Solving Platform](https://github.com/shu-vro/EduSolve.git)
 
-- 👨‍💻 All of my projects are available at [https://siyam70.netlify.app/](https://siyam70.netlify.app/)
+- 👨‍💻 All of my projects are available at [https://siyam70.netlify.app/](https://siyam70.vercel.app/)
 
 - 💬 Ask me about **React.js, Express.js, MongoDB, Laravel, MySQL, JavaScript, PHP, Python, C, C++, Java, HTML, CSS**
 
