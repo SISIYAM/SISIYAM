@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [SEI Notes- A Notes Sharing Platform](https://github.com/SISIYAM/React-Note-Sharing-web-FrontEnd.git)
+- 🔭 I’m currently working as a Junior Software Engineer at [Chorcha](https://github.com/SISIYAM/React-Note-Sharing-web-FrontEnd.git)
 
 - 🌱 I’m currently learning **React Native and Vue.js**
 
